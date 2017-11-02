@@ -1,17 +1,23 @@
 package com.cjg.pay.web;
 
-import org.springframework.context.annotation.Scope;
+import com.cjg.pay.serviceMerchar.AccountService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-@Scope("prototype")
 public class IndexAction {
 
+
+
     @RequestMapping("/")
-    public String userInfo(){
+    public String index(){
+        return "index";
+    }
+
+    @RequestMapping("/index")
+    public String index2(){
         return "index";
     }
 
@@ -20,14 +26,4 @@ public class IndexAction {
         System.out.println(page);
         return page;
     }
-
-
-
-//    @RequestMapping("/userInfo")
-//    public String page(){
-//        System.out.println("userInfo");
-//        return "userInfo";
-//    }
-
-
 }

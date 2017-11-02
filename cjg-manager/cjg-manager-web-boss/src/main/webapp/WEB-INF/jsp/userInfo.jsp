@@ -9,6 +9,7 @@
         <button onclick="searchForm()" type="button" class="easyui-linkbutton">搜索</button>
     </div>
 </div>
+
 <table id="dg"></table>
 
 <script>

@@ -18,7 +18,6 @@ public class RpUserInfo {
     private String mobile;
 
     private String password;
-
     private String payPwd;
 
     public String getId() {

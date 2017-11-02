@@ -7,6 +7,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>cjg-manager-web-merchant</artifactId>
+
     <packaging>war</packaging>
     <name>cjg-manager-web-merchant Maven Webapp</name>
     <url>http://maven.apache.org</url>
@@ -61,7 +62,7 @@
             <artifactId>freemarker</artifactId>
         </dependency>
         <!-- Spring libs Begin -->
-        <dependency>
+       <!-- <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
             <version>${spring.version}</version>
@@ -153,7 +154,7 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc-portlet</artifactId>
             <version>${spring.version}</version>
-        </dependency>
+        </dependency>-->
 
     </dependencies>
     <build>
